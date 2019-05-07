@@ -1,0 +1,25 @@
+{
+  "name": "douma/laravel-database-routes",
+  "type": "library",
+  "description": "Laravel route manager",
+  "keywords": ["routemanager", "laravel"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Stefan Douma",
+      "email": "douma4@gmail.com",
+      "homepage": "https://github.com/douma"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Douma\\Routes\\": "src/Routes/"
+    }
+  },
+  "require": {
+    "php": "^7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0"
+  }
+}
